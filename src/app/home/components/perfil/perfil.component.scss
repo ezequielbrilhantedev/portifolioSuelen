@@ -1,0 +1,44 @@
+.section {
+  margin-top: -35px;
+}
+
+.infoPerfil {
+  width: 20%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.fotoPerfil {
+  display: flex;
+  justify-content: center;
+
+  img {
+    border-radius: 100%;
+    min-width: 167px;
+  }
+
+  &__descPerfil {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+// ícones de contatos
+.iconInsta {
+  font-size: 22px;
+}
+
+.iconWpp {
+  font-size: 22px;
+}
+
+.iconGmail {
+  font-size: 22px;
+}
